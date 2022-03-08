@@ -1,0 +1,191 @@
+*,
+*:before,
+*:after{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    height: 100%;
+    background-color: gray;
+}
+.container{
+
+    border: 2px solid black;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    background-color: black;
+    background-image: url(img/img_pic1.jpg);
+    border-radius: 3px;
+}
+
+#newTask{
+
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0 15px;
+    position: relative;
+}
+#newTask input{
+
+    width: 76%;
+    height: 45px;
+    font-family: sans-serif;
+    border: 2px solid #d1d3d4;
+    font-size: 15px;
+    color: darkslategray;
+    font-weight: 500;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin:2px;
+
+}
+ #newTask button  {
+
+position: relative;
+     float: right;
+     width: 20%;
+     height: 45px;
+     border-radius: 5px;
+     font-family: sans-serif;
+
+     box-sizing: border-box;
+     font-size: 16px;
+     background-color: darkred;
+    border: none;
+     color: white;
+     cursor: pointer;
+     font-weight: bolder;
+}
+
+#newTask button:hover{
+    pointer-events: visible;
+    text-decoration-style: dotted;
+    text-decoration-style: revert;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+
+}
+
+#taskResult{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 15px 30px darkred;
+    position: relative;
+}
+
+.taskResultt{
+
+
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid green;
+    border-radius: 3px;
+}
+
+.taskResultt :hover{
+
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+    transition: right;
+    border-bottom: 2px solid darkblue;
+}
+.taskResultt span{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.taskResultt button{
+    background-color: darkred;
+    color: white;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+
+.btnRemAll{
+    width: 200px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    height: 55px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 200px;
+    margin-top: 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.btnRemAll:hover{
+
+    pointer-events: visible;
+    text-decoration-style: dotted;
+    text-decoration-style: revert;
+    background-color: black;
+    color: white;
+    font-size: large;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.headingTitle{
+
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: revert;
+
+}
+.headingTitle :hover {
+
+    text-align: center;
+    color: darkred;
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+
+
+}
+
+
+.errorMsg{
+
+    text-align: center;
+    font-size: 18px;
+    color: darkred;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.completed{
+    text-decoration: line-through;
+}

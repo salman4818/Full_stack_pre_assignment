@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Management system</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Index.css" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="headingTitle"> <h2>Task Management</h2></div>
+
+<div id="newTask">
+
+    <input type="text" class="searchBar" placeholder="  Title..."/>
+    <button id="Add"> Add <i class='fas fa-plus'></i> </button>
+    <br>
+    <p class="errorMsg"></p>
+</div>
+
+    <div id="taskResult">
+
+
+    </div>
+
+    <div class="footer">
+        <button class="btnRemAll" onclick="removeAll()">Remove All  <i class='fas fa-trash'></i>
+
+        </button>
+
+    </div>
+</div>
+<script src="Index.js"></script>
+
+</body>
+</html>
